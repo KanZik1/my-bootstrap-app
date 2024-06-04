@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 
 function BasicExample() {
   return (
-    <Form>
+    <Form className='w-25'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Username</Form.Label>
         <Form.Control type="username" placeholder="Enter username" />
